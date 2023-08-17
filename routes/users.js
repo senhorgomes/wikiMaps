@@ -7,7 +7,7 @@
 
 const express = require('express');
 const router  = express.Router();
-
+// => /users
 router.get('/', (req, res) => {
   res.render('users');
 }); 
